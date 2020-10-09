@@ -33,7 +33,8 @@ class _MyHomePageState extends State<MyHomePage> {
             child: Column(
               children: [
                 TextFormField(
-                  style: TextStyle(fontSize: 15),
+                  style: TextStyle(fontSize: 15,
+                  color : Colors.green),
                   decoration: InputDecoration(
                       border: OutlineInputBorder(
                           borderRadius: BorderRadius.circular(6),
