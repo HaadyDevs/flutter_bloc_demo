@@ -32,6 +32,9 @@ class _MyHomePageState extends State<MyHomePage> {
             key: _formKey,
             child: Column(
               children: [
+                SizedBox(
+                  height: 35
+                ),
                 TextFormField(
                   style: TextStyle(fontSize: 15,
                   color : Colors.green),
