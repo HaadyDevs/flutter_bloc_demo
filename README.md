@@ -1,4 +1,4 @@
-# details_app
+# Flutter Bloc Demo
 
 A new Flutter application.
 
