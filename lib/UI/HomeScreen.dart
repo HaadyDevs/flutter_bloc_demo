@@ -12,6 +12,7 @@ class MyHomePage extends StatefulWidget {
 class _MyHomePageState extends State<MyHomePage> {
   final _formKey = GlobalKey<FormState>();
   final genders = ["Male", "Female", "Other"];
+  final address = "138/C";
   int radioGroup = 0;
   String name;
   String address;
@@ -32,12 +33,9 @@ class _MyHomePageState extends State<MyHomePage> {
             key: _formKey,
             child: Column(
               children: [
-                SizedBox(
-                  height: 35
-                ),
+                SizedBox(height: 35),
                 TextFormField(
-                  style: TextStyle(fontSize: 15,
-                  color : Colors.green),
+                  style: TextStyle(fontSize: 15, color: Colors.green),
                   decoration: InputDecoration(
                       border: OutlineInputBorder(
                           borderRadius: BorderRadius.circular(6),
