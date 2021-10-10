@@ -6,4 +6,6 @@ class DetailModel {
   String profileid
 
   DetailModel({this.name, this.address, this.gender, this.martial});
+
+  //this is the details model
 }
