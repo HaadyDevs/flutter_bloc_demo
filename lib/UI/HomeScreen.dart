@@ -25,6 +25,12 @@ class _MyHomePageState extends State<MyHomePage> {
     return Scaffold(
       appBar: AppBar(
         title: Text("Enter Information"),
+        actions: <Widget>[
+          new Icon(
+            Icons.account_circle_rounded,
+            color: Colors.white,
+          )
+        ]
       ),
       body: SingleChildScrollView(
         child: Padding(
