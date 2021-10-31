@@ -54,7 +54,7 @@ class _ViewDetailsState extends State<ViewDetails> {
                     Text(
                       details.address,
                       style:
-                          TextStyle(fontSize: 28, fontWeight: FontWeight.bold),
+                          TextStyle(fontSize: 27, fontWeight: FontWeight.bold),
                     ),
                     SizedBox(
                       height: 30,
@@ -69,7 +69,7 @@ class _ViewDetailsState extends State<ViewDetails> {
                     Text(
                       details.gender,
                       style:
-                          TextStyle(fontSize: 28, fontWeight: FontWeight.bold),
+                          TextStyle(fontSize: 27, fontWeight: FontWeight.bold),
                     ),
                     SizedBox(
                       height: 30,
@@ -84,7 +84,7 @@ class _ViewDetailsState extends State<ViewDetails> {
                     Text(
                       details.martial,
                       style:
-                          TextStyle(fontSize: 28, fontWeight: FontWeight.bold),
+                          TextStyle(fontSize: 27, fontWeight: FontWeight.bold),
                     ),
                   ],
                 ),
