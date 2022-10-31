@@ -25,6 +25,12 @@ class _MyHomePageState extends State<MyHomePage> {
     return Scaffold(
       appBar: AppBar(
         title: Text("Enter Information"),
+        actions: <Widget>[
+          new Icon(
+            Icons.account_circle_rounded,
+            color: Colors.white,
+          )
+        ]
       ),
       body: SingleChildScrollView(
         child: Padding(
@@ -35,7 +41,7 @@ class _MyHomePageState extends State<MyHomePage> {
               children: [
                 SizedBox(height: 35),
                 TextFormField(
-                  style: TextStyle(fontSize: 15, color: Colors.green),
+                  style: TextStyle(fontSize: 16, color: Colors.green),
                   decoration: InputDecoration(
                       border: OutlineInputBorder(
                           borderRadius: BorderRadius.circular(6),
@@ -51,7 +57,7 @@ class _MyHomePageState extends State<MyHomePage> {
                 ),
                 TextFormField(
                   maxLines: 3,
-                  style: TextStyle(fontSize: 15),
+                  style: TextStyle(fontSize: 16),
                   decoration: InputDecoration(
                       border: OutlineInputBorder(
                           borderRadius: BorderRadius.circular(6),
