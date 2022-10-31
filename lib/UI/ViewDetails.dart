@@ -48,7 +48,7 @@ class _ViewDetailsState extends State<ViewDetails> {
                       "Address",
                       style: TextStyle(
                         fontSize: 18,
-                        color: Colors.blue[900],
+                        color: Colors.red[900],
                       ),
                     ),
                     Text(
